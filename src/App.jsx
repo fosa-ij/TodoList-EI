@@ -1,3 +1,4 @@
+<<<<<<< HEAD
  import { Route, Routes } from 'react-router-dom'
  import './App.css'
  import './index.css'
@@ -43,6 +44,17 @@ export const UserContext = createContext()
        </section>
      </>
    );
+=======
+import TodoList from './component/todo';
+
+function App() {
+  return (
+    <div>
+      <h1>My Todo App</h1>
+      <TodoList />
+    </div>
+  );
+>>>>>>> 46c7a1cc6d5227fecf3b2968dfb8f120a59253c8
 }
 
-export default App
+export default App;
