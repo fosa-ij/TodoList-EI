@@ -66,7 +66,6 @@ const Todo = () => {
 
     const todos = page === 'All' ? todoList : page === 'Open' ? openTodos : page === 'Closed' && completedTodos
 
-  
     useEffect(() => {
       localStorage.setItem('checkedTodos', JSON.stringify(isAllChecked));
     }, [isAllChecked]);
